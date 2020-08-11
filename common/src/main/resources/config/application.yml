@@ -1,0 +1,8 @@
+ignore:
+  common-urls:
+    # swagger 放权
+    - /swagger-ui.html
+    - /swagger-resources/**
+    - /v2/api-docs
+    - /webjars/**
+    - /resume/**
