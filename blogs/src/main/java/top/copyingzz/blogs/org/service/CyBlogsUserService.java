@@ -1,4 +1,4 @@
-package top.copying.blogs.org.service;
+package top.copyingzz.blogs.org.service;
 
 /**
  * @author copying

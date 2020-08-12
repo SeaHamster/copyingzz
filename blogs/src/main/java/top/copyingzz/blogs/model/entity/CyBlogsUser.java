@@ -1,4 +1,4 @@
-package top.copying.blogs.model.entity;
+package top.copyingzz.blogs.model.entity;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package top.copying.blogs.org.controller;
+package top.copyingzz.blogs.org.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.copying.blogs.org.service.CyBlogsUserService;
+import top.copyingzz.blogs.org.service.CyBlogsUserService;
 
 import javax.annotation.Resource;
 
