@@ -5,3 +5,11 @@ spring:
     username: blogs
     password: blogs
     type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*Mapper.xml
+
+mybatis:
+
+server:
+  port: 10505

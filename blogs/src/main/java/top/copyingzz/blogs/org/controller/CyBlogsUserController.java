@@ -23,7 +23,7 @@ public class CyBlogsUserController {
     @Resource
     private CyBlogsUserService cyBlogsUserService;
 
-    @ApiOperation(notes = "用户登录", value = "用户登录", httpMethod = "POST")
+    @ApiOperation(notes = "用户登录", value = "用户登录", httpMethod = "GET")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "userName",value = "用户名",type = "String",required = true),
             @ApiImplicitParam(name = "passWord",value = "密码",type = "String",required = true)

@@ -1,9 +1,12 @@
 package top.copyingzz.blogs.org.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * @author copying
  * @date 2020-08-11
  */
+@Service("CyBlogsUserService")
 public interface CyBlogsUserService  {
 
     /**

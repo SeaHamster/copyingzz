@@ -1,7 +1,7 @@
 package top.copyingzz.blogs.org.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import top.copyingzz.blogs.mapper.CyBlogsUserMapper;
 import top.copyingzz.blogs.model.entity.CyBlogsUser;
 import top.copyingzz.blogs.org.service.CyBlogsUserService;
@@ -15,7 +15,7 @@ import java.util.List;
  * @date 2020-08-11
  * 用户管理具体实现
  */
-@Service("CyBlogsUserService")
+@Component
 public class CyBlogsUserImpl implements CyBlogsUserService {
 
     @Resource
